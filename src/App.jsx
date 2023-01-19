@@ -1,5 +1,17 @@
+import Companies from "./Components/Companies";
+import Guide from "./Components/Guide";
+import Hero from "./Components/Hero";
+import Properties from "./Components/Properties";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Hero />
+      <Companies />
+      <Guide />
+      <Properties />
+    </>
+  );
 }
 
 export default App;
